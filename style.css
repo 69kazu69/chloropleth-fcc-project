@@ -3,8 +3,9 @@ body{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: auto;
     flex-direction: column;
+    background-color: aqua;
 }
 
 
@@ -12,4 +13,28 @@ body{
     background-color: aquamarine;
     width: 1000px;
 height: 600px;
+box-shadow: 0 0 2rem;
+border-radius: 3rem;
+}
+#tooltip{
+    width: auto;
+    height: auto;
+    visibility: hidden;
+}
+h1{
+    font-family: monospace;
+    font-size: 3rem;
+
+}
+#legend{
+    margin-top: 2rem;
+    display: flex;
+    font-weight: bold;
+}
+#tooltip{
+    background-color: aquamarine;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 0 2rem;
 }

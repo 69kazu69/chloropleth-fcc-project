@@ -12,10 +12,26 @@
 <body>
     <h1 id="title">Us Edu Title</h1>
     <div id="description">Percentage of people over 25 with a bachelors degree.</div>
+    <div id="tooltip"></div>
     <svg id = "canvas">
-
+        
     </svg>
-    
+    <svg id="legend">
+        <g>
+            <rect x = "10" y = "0" width = "20" height ="20" fill ="red"></rect>
+            <text x = "60" y = "20" fill = "black">Less than 15%</text>
+    </g>
+    <g>
+        <rect x = "10" y = "20" width = "20" height ="20" fill ="orange"></rect>
+        <text x = "60" y = "40" fill = "black">15 to 30 %</text>
+</g><g>
+    <rect x = "10" y = "40" width = "20" height ="20" fill ="lightgreen"></rect>
+    <text x = "60" y = "60" fill = "black">30 to 45 %</text>
+</g><g>
+<rect x = "10" y = "60" width = "20" height ="20" fill ="limegreen"></rect>
+<text x = "60" y = "80" fill = "black">More than 45%</text>
+</g>
+    </svg>
 </body>
 <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js" integrity="sha512-4UKI/XKm3xrvJ6pZS5oTRvIQGIzZFoXR71rRBb1y2N+PbwAsKa5tPl2J6WvbEvwN3TxQCm8hMzsl/pO+82iRlg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
