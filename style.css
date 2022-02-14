@@ -10,11 +10,12 @@ body{
 
 
 #canvas{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     width: 1000px;
 height: 600px;
-box-shadow: 0 0 2rem;
-border-radius: 3rem;
+box-shadow: 0 0 1rem;
+border: 4px solid black;
+
 }
 #tooltip{
     width: auto;
@@ -32,9 +33,12 @@ h1{
     font-weight: bold;
 }
 #tooltip{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     margin: 2rem;
     padding: 1rem;
-    border-radius: 15px;
     box-shadow: 0 0 2rem;
+    border: 1px solid black;
+}
+.county:hover{
+    fill: #fff;
 }
